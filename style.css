@@ -1,0 +1,60 @@
+#div1 {
+    perspective: 800px;
+    perspective-origin: 50% 50%;
+    overflow: hidden;
+}
+#pagegroup{
+    width: 790px;
+    height: 500px;
+    margin: 80px auto 0;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.page {
+    width: 750px;
+    height: 460px;
+    padding: 20px;
+    background-color: #582c17;
+    color: white;
+    line-height: 460px;
+    font-weight: bold;
+    font-size: 360px;
+    text-align: center;
+    position: absolute;
+    border-radius: 15px;
+}
+#page1 {
+    transform-origin: bottom;
+    transition: transform 1s linear;
+}
+#page2,#page3,#page4,#page5,#page6 {
+    transform-origin: bottom;
+    transition: transform 1s linear;
+    transform: rotateX(90deg);
+}
+#op {
+    text-align: center;
+    margin: 40px auto;
+}
+
+#op .btn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #582c17;
+    text-decoration: none;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #888;
+}
+#op .btn:hover{
+    background-color: #58220f;
+}
+#op .btn:active{
+    background-color: #580e01;
+    box-shadow: none;
+}
+.btn_1 {
+    margin-right: 20px;
+}
