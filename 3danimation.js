@@ -10,7 +10,7 @@ function next(){
         var nextPage = document.getElementById('page'+curIndex);
         nextPage.style.transform = "rotateX(0deg)";}
     else {
-        alert("没有多余的卡片");
+        alert("没有更多卡片了");
     }
 
 }
@@ -23,7 +23,7 @@ function prev(){
         nextPage.style.transform = "rotateX(0deg)";
     }
     else {
-        alert("没有多余的卡片");
+        alert("没有更多卡片了");
     }
 
 
